@@ -194,9 +194,3 @@ Seed nodes first where needed: `pnpm seed`.
 ## Deploy
 
 [Vercel](https://vercel.com/) works well for the Next app: mirror `.env.example` variables in the project settings. Field machines running the USB bridge need `TRANSFER_SECRET`, optional `TRANSFER_PIN`, the deployed API base URL, and a stable `DEVICE_ID` (documented under hardware).
-
----
-
-## Note on database name
-
-The app uses the MongoDB database **`relieflink`**. Older prototypes may have used another name — migrate or re-seed if you are upgrading.
